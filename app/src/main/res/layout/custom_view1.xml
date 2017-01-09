@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"
+            android:transitionName="imageView"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Break Free"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1b1b1b"
+            android:textSize="29dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="(Group Dance)"
+            android:singleLine="true"
+            android:textColor="#3a3a3a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:text="Dreaming of becoming an entrepreneur? If owning your own business is your goal, the good news is, you can achieve it with a great idea and some hard work. But coming up with a stellar business idea that&apos;s also practical isn&apos;t always easy. If you&apos;re not sure where to start, here are 24 small business ideas to inspire you on your path to entrepreneurial success. - See more at: http://www.businessnewsdaily.com/1646-great-business-ideas-2012.html#sthash.Rws8TqMc.dpuf"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#696969"
+            android:textSize="15dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:lines="5"
+            android:minLines="1"
+            android:padding="5dp"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

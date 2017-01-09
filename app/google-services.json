@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "108205647897",
+    "firebase_url": "https://saptrang2k16.firebaseio.com",
+    "project_id": "saptrang2k16",
+    "storage_bucket": "saptrang2k16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108205647897:android:67f28e327bb025c9",
+        "android_client_info": {
+          "package_name": "delhi.android.nit.com.saptrang2k16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108205647897-qn314fuallejejuc9ufu770tfjp94utd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "delhi.android.nit.com.saptrang2k16",
+            "certificate_hash": "A61A831798A7372E6BD750E5BE2969EFF1F29BBC"
+          }
+        },
+        {
+          "client_id": "108205647897-1p1njflj4ma29drtmh36of3966hsbkig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUSlzcOGnp0nGOn5JE-DwU0OWDnDafd1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108205647897-1p1njflj4ma29drtmh36of3966hsbkig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
